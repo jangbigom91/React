@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import EventFuncCompo from './components/EventFuncCompo';
+import EventClassCompo from './components/EventClassCompo';
 
 /*
   날짜 : 2020/10/20
@@ -18,7 +19,7 @@ function App() {
       <EventFuncCompo />
 
       <h4>2.클래스형 컴포넌트 이벤트</h4>
-
+      <EventClassCompo />
     </div>
   );
 }

@@ -52,7 +52,10 @@ const EventFuncCompo = () => {
                 onMouseOut={()=>{setColor2("green")}}>마우스오버, 마우스아웃</h1>
 
             {/* onChange 이벤트 */}
-            <input type="text" onChange={()=>{}} />
+            <input type="text" onChange={(e)=>{
+                //console.log(e.target.value);
+                setMsg(e.target.value);
+            }} />
             <h1>{msg}</h1>
         </div>
     );
